@@ -10,8 +10,8 @@
 <h2>Cohorts</h2>
 <table class="cohort-list" width="200">
   <tr>
-    <th>Name</th>
-    <th>Year</th>
+    <th ng-click="sortOrder = 'name'">Name</th>
+    <th ng-click="sortOrder = 'year'">Year</th>
   </tr>
   <tr ng-repeat="cohort in cohorts | filter:searchText | orderBy:sortOrder">
     <td>{{cohort.name}}</td>
