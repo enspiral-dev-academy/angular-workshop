@@ -14,7 +14,7 @@ This repo contains a demo app for the DBC Angular workshop
 
 * Angular blog http://blog.angularjs.org/ - good for news etc.
 * Angular modules directory http://ngmodules.org/
-* [Setting up a fresh angular install with Yeoman](http://www.sitepoint.com/kickstart-your-angularjs-development-with-yeoman-grunt-and-bower/)
+* [Setting up a fresh angular install with Yeoman](http://www.sitepoint.com/kickstart-your-angularjs-development-with-yeoman-grunt-and-bower/) (note you will need `npm install --save karma-jasmine karma-chrome-launcher` for tests to pass)
 * [Restangular](http://ngmodules.org/modules/restangular) - an improved version of
   the built-in $resource
 * [Angular UI](https://github.com/angular-ui/ui-router) is recommended if you
