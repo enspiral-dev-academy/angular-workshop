@@ -8,4 +8,9 @@ angular.module('demoApp')
       {name: 'Golden Bears', year: '2014'}]
 
     $scope.sortOrder = 'name';
+
+
+    $scope.createCohort = function() {
+      this.cohorts.push({name: this.newCohort.name, year: this.newCohort.year})
+    }
   });
