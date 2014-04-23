@@ -16,6 +16,7 @@ This repo contains a demo app for the DBC Angular workshop
 * Angular modules directory http://ngmodules.org/
 * [Setting up a fresh angular install with Yeoman](http://www.sitepoint.com/kickstart-your-angularjs-development-with-yeoman-grunt-and-bower/) (note you will need `npm install --save karma-jasmine karma-chrome-launcher` for tests to pass)
 * [Protractor for e2e tests](https://www.npmjs.org/package/generator-protractor)
+* [Protractor syntax](https://github.com/angular/protractor/blob/master/docs/api.md)
 * [Restangular](http://ngmodules.org/modules/restangular) - an improved version of
   the built-in $resource
 * [Angular UI](https://github.com/angular-ui/ui-router) is recommended if you
