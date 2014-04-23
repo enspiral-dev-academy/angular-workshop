@@ -1,1 +1,15 @@
 <div ng-include="'views/_header.html'"></div>
+
+<button ng-click="auth.logout()" class="pull-right" ng-show="current_user">Logout</button>
+<h1>Firebase</h1>
+
+<div id="messagesDiv">
+  <div ng-repeat="msg in messages"><em>{{msg.from}}</em>: {{msg.body}}</div>
+</div>
+
+<div ng-hide="current_user">
+  <button ng-click="auth.login('github')">Login with Github</button>
+</div>
+<div ng-show="current_user">
+  <input type="text" ng-model="msg" ng-keydown="addMessage($event)" placeholder="Message...">
+</div>
