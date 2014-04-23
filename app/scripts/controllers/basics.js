@@ -9,7 +9,6 @@ angular.module('demoApp')
 
     $scope.sortOrder = 'name';
 
-
     $scope.createCohort = function() {
       this.cohorts.push({name: this.newCohort.name, year: this.newCohort.year})
     }
