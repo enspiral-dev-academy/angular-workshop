@@ -8,7 +8,7 @@ This repo contains a demo app for the DBC Angular workshop
 * Install node, bower, grunt then
 * npm install
 * bower install
-* grunt server
+* grunt serve
 
 ## Links
 
