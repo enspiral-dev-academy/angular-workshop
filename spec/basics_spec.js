@@ -5,7 +5,7 @@ describe('basics', function() {
   });
 
   it('lists 3 cohorts', function() {
-    expect(element.all(by.css('.cohort-list tr')).count()).toBe(3);
+    expect(element.all(by.css('.cohort-list tr')).count()).toBe(4);
   })
 
   describe('searching for cohorts', function() {
@@ -18,7 +18,7 @@ describe('basics', function() {
     });
 
     it('filters cohorts by searchText', function() {
-      expect(element.all(by.css('.cohort-list tr')).count()).toBe(1)
+      expect(element.all(by.css('.cohort-list tr')).count()).toBe(2)
     });
   });
 });
