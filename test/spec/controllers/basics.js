@@ -15,4 +15,7 @@ describe('Controller: BasicsCtrl', function () {
       $scope: scope
     });
   }));
+  it('has a list of cohorts', function () {
+    expect(scope.cohorts.length).toBe(3);
+  });
 });
