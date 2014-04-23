@@ -18,6 +18,10 @@ angular
         templateUrl: 'views/basics.html',
         controller: 'BasicsCtrl'
       })
+      .when('/chat', {
+        templateUrl: 'views/chat.html',
+        controller: 'ChatCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

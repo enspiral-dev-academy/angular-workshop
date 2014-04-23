@@ -6,10 +6,10 @@ describe('nav', function() {
   });
 
   it('should have 2 menu items', function() {
-    expect(element.all(by.css('.nav li')).count()).toBe(2);
+    expect(element.all(by.css('.nav li')).count()).toBe(3);
   });
 
   it('should have a link to basics', function() {
-    expect(element(by.css('.nav li:last-child')).getText()).toBe('Basics')
+    expect(element(by.css('.nav li:last-child')).getText()).toBe('Chat')
   })
 });
