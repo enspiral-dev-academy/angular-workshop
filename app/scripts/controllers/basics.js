@@ -2,5 +2,10 @@
 
 angular.module('demoApp')
   .controller('BasicsCtrl', function ($scope) {
-      $scope.cohorts = ['Banana Slugs', 'Fiery Skippers', 'Golden Bears']
+    $scope.cohorts = [
+      {name: 'Fiery Skippers', year: '2013'},
+      {name: 'Banana Slugs', year: '2014'},
+      {name: 'Golden Bears', year: '2014'}]
+
+    $scope.sortOrder = 'name';
   });
