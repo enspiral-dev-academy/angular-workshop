@@ -1,0 +1,32 @@
+<div ng-include="'views/_header.html'"></div>
+
+<p>
+ <input ng-model="searchText" tabindex="1"/>
+</p>
+<p class="searching">
+  my model is {{searchText}}
+</p>
+
+<h2>Cohorts</h2>
+<table class="cohort-list" width="200">
+  <tr>
+    <th ng-click="sortOrder = 'name'">Name</th>
+    <th ng-click="sortOrder = 'year'">Year</th>
+  </tr>
+  <tr ng-repeat="cohort in cohorts | filter:searchText | orderBy:sortOrder">
+    <td>{{cohort.name}}</td>
+    <td>{{cohort.year}}</td>
+  </tr>
+</table>
+
+<h3>Create Cohort</h3>
+<form ng-submit="createCohort()">
+  <label for="name">Name</label>
+  <input id="name" ng-model="newCohort.name" tabindex="2"/>
+
+  <label for="year">Year</label>
+  <input id="year" ng-model="newCohort.year" tabindex="3"/>
+  <p>
+    <input type="submit" value="Add" tabindex="5"/>
+  </p>
+</form>
