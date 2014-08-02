@@ -36,6 +36,7 @@ You may need to run `sudo npm install -g webdriver-manager` if you get a permiss
 * Angular and Rails: [angular-js-rails-resource](http://ngmodules.org/modules/angularjs-rails-resource)
  recommended if you are using rails
 * [Conceptual overview of Angular for Jquery folks](http://stackoverflow.com/questions/14994391/how-do-i-think-in-angularjs-if-i-have-a-jquery-background)
+* [Good Angular style guide](https://github.com/toddmotto/angularjs-styleguide) - note that this differs from how the yeoman angular generator sets up your app.
 
 #### DOM Notes
 
