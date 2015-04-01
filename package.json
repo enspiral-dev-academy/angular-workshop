@@ -38,10 +38,13 @@
   },
   "engines": {
     "node": ">=0.10.0",
-    "protractor": "0.22.0"
+    "protractor": "0.23.0"
   },
   "scripts": {
     "test": "grunt test",
     "install": "./node_modules/protractor/bin/webdriver-manager update"
+  },
+  "dependencies": {
+    "protractor": "^2.0.0"
   }
 }
